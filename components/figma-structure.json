@@ -1,0 +1,198 @@
+{
+  "pages": [
+    {
+      "name": "🎨 Design System",
+      "frames": [
+        {
+          "name": "Colors",
+          "sections": [
+            {
+              "name": "Light Mode",
+              "colors": [
+                {"name": "Primary", "value": "#2563EB"},
+                {"name": "Secondary", "value": "#64748B"},
+                {"name": "Background", "value": "#FFFFFF"},
+                {"name": "Surface", "value": "#F8FAFC"},
+                {"name": "Border", "value": "#E2E8F0"},
+                {"name": "Text Primary", "value": "#1E293B"},
+                {"name": "Text Secondary", "value": "#64748B"}
+              ]
+            },
+            {
+              "name": "Dark Mode",
+              "colors": [
+                {"name": "Primary", "value": "#3B82F6"},
+                {"name": "Secondary", "value": "#94A3B8"},
+                {"name": "Background", "value": "#1E293B"},
+                {"name": "Surface", "value": "#334155"},
+                {"name": "Border", "value": "#475569"},
+                {"name": "Text Primary", "value": "#F1F5F9"},
+                {"name": "Text Secondary", "value": "#94A3B8"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Typography",
+          "styles": [
+            {
+              "name": "Heading 1",
+              "fontFamily": "Inter",
+              "fontSize": "24px",
+              "fontWeight": "700",
+              "lineHeight": "1.4"
+            },
+            {
+              "name": "Heading 2",
+              "fontFamily": "Inter",
+              "fontSize": "20px",
+              "fontWeight": "600",
+              "lineHeight": "1.4"
+            },
+            {
+              "name": "Body",
+              "fontFamily": "Inter",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "1.5"
+            },
+            {
+              "name": "Caption",
+              "fontFamily": "Inter",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "1.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "🧩 Components",
+      "frames": [
+        {
+          "name": "Navigation Bar",
+          "variants": [
+            {
+              "name": "Light Mode",
+              "properties": {
+                "background": "#FFFFFF",
+                "border": "1px solid #E2E8F0",
+                "shadow": "0 -1px 3px rgba(0,0,0,0.05)"
+              }
+            },
+            {
+              "name": "Dark Mode",
+              "properties": {
+                "background": "#1E293B",
+                "border": "1px solid #334155",
+                "shadow": "0 -1px 3px rgba(0,0,0,0.2)"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Lesson Card",
+          "variants": [
+            {
+              "name": "Light Mode",
+              "properties": {
+                "background": "#FFFFFF",
+                "border": "1px solid #E2E8F0",
+                "shadow": "0 2px 4px rgba(0,0,0,0.05)"
+              }
+            },
+            {
+              "name": "Dark Mode",
+              "properties": {
+                "background": "#334155",
+                "border": "1px solid #475569",
+                "shadow": "0 2px 4px rgba(0,0,0,0.2)"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Practice Exercise Card",
+          "variants": [
+            {
+              "name": "Light Mode - Beginner",
+              "properties": {
+                "background": "#FFFFFF",
+                "badge": {
+                  "background": "#DCFCE7",
+                  "color": "#059669"
+                }
+              }
+            },
+            {
+              "name": "Dark Mode - Beginner",
+              "properties": {
+                "background": "#334155",
+                "badge": {
+                  "background": "#065F46",
+                  "color": "#34D399"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "Conversation Bubble",
+          "variants": [
+            {
+              "name": "Light Mode - User",
+              "properties": {
+                "background": "#EFF6FF",
+                "color": "#1E293B"
+              }
+            },
+            {
+              "name": "Dark Mode - User",
+              "properties": {
+                "background": "#1E40AF",
+                "color": "#F1F5F9"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Button",
+          "variants": [
+            {
+              "name": "Primary - Light",
+              "properties": {
+                "background": "#2563EB",
+                "color": "#FFFFFF"
+              }
+            },
+            {
+              "name": "Primary - Dark",
+              "properties": {
+                "background": "#3B82F6",
+                "color": "#FFFFFF"
+              }
+            },
+            {
+              "name": "Secondary - Light",
+              "properties": {
+                "background": "#F1F5F9",
+                "color": "#1E293B",
+                "border": "1px solid #E2E8F0"
+              }
+            },
+            {
+              "name": "Secondary - Dark",
+              "properties": {
+                "background": "#334155",
+                "color": "#F1F5F9",
+                "border": "1px solid #475569"
+              }
+            }
+          ],
+          "sizes": ["sm", "md", "lg"]
+        }
+      ]
+    }
+  ]
+}
