@@ -1,0 +1,363 @@
+{
+  "name": "English Learning App - Design System",
+  "pages": [
+    {
+      "name": "🎨 Design System",
+      "frames": [
+        {
+          "name": "Color System",
+          "type": "FRAME",
+          "width": 1440,
+          "height": 1600,
+          "background": "#FFFFFF",
+          "sections": [
+            {
+              "name": "Light Mode",
+              "type": "FRAME",
+              "layout": "VERTICAL",
+              "itemSpacing": 32,
+              "padding": 40,
+              "background": "#FFFFFF",
+              "width": 1360,
+              "sections": [
+                {
+                  "name": "Primary Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "50",
+                      "value": "#EFF6FF",
+                      "description": "Lightest primary, used for subtle backgrounds"
+                    },
+                    {
+                      "name": "100",
+                      "value": "#DBEAFE",
+                      "description": "Very light primary, used for hover states"
+                    },
+                    {
+                      "name": "200",
+                      "value": "#BFDBFE",
+                      "description": "Light primary, used for active states"
+                    },
+                    {
+                      "name": "300",
+                      "value": "#93C5FD",
+                      "description": "Soft primary, used for focus states"
+                    },
+                    {
+                      "name": "400",
+                      "value": "#60A5FA",
+                      "description": "Medium primary, used for hover states"
+                    },
+                    {
+                      "name": "500",
+                      "value": "#3B82F6",
+                      "description": "Main primary color"
+                    },
+                    {
+                      "name": "600",
+                      "value": "#2563EB",
+                      "description": "Dark primary, used for active states"
+                    },
+                    {
+                      "name": "700",
+                      "value": "#1D4ED8",
+                      "description": "Darker primary, used for contrast"
+                    },
+                    {
+                      "name": "800",
+                      "value": "#1E40AF",
+                      "description": "Very dark primary"
+                    },
+                    {
+                      "name": "900",
+                      "value": "#1E3A8A",
+                      "description": "Darkest primary"
+                    }
+                  ]
+                },
+                {
+                  "name": "Neutral Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "50",
+                      "value": "#F8FAFC",
+                      "description": "Page background"
+                    },
+                    {
+                      "name": "100",
+                      "value": "#F1F5F9",
+                      "description": "Card background"
+                    },
+                    {
+                      "name": "200",
+                      "value": "#E2E8F0",
+                      "description": "Border color"
+                    },
+                    {
+                      "name": "300",
+                      "value": "#CBD5E1",
+                      "description": "Disabled text"
+                    },
+                    {
+                      "name": "400",
+                      "value": "#94A3B8",
+                      "description": "Placeholder text"
+                    },
+                    {
+                      "name": "500",
+                      "value": "#64748B",
+                      "description": "Secondary text"
+                    },
+                    {
+                      "name": "600",
+                      "value": "#475569",
+                      "description": "Strong text"
+                    },
+                    {
+                      "name": "700",
+                      "value": "#334155",
+                      "description": "Primary text"
+                    },
+                    {
+                      "name": "800",
+                      "value": "#1E293B",
+                      "description": "Heading text"
+                    },
+                    {
+                      "name": "900",
+                      "value": "#0F172A",
+                      "description": "Extra dark text"
+                    }
+                  ]
+                },
+                {
+                  "name": "Semantic Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "Success",
+                      "value": "#34D399",
+                      "description": "Success states and positive actions"
+                    },
+                    {
+                      "name": "Warning",
+                      "value": "#FBBF24",
+                      "description": "Warning states and cautionary actions"
+                    },
+                    {
+                      "name": "Error",
+                      "value": "#F87171",
+                      "description": "Error states and destructive actions"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dark Mode",
+              "type": "FRAME",
+              "layout": "VERTICAL",
+              "itemSpacing": 32,
+              "padding": 40,
+              "background": "#1E293B",
+              "width": 1360,
+              "sections": [
+                {
+                  "name": "Primary Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "50",
+                      "value": "#EFF6FF",
+                      "description": "Lightest primary"
+                    },
+                    {
+                      "name": "100",
+                      "value": "#DBEAFE",
+                      "description": "Very light primary"
+                    },
+                    {
+                      "name": "200",
+                      "value": "#BFDBFE",
+                      "description": "Light primary"
+                    },
+                    {
+                      "name": "300",
+                      "value": "#93C5FD",
+                      "description": "Soft primary"
+                    },
+                    {
+                      "name": "400",
+                      "value": "#60A5FA",
+                      "description": "Main primary color (Dark mode)"
+                    },
+                    {
+                      "name": "500",
+                      "value": "#3B82F6",
+                      "description": "Medium primary"
+                    },
+                    {
+                      "name": "600",
+                      "value": "#2563EB",
+                      "description": "Dark primary"
+                    },
+                    {
+                      "name": "700",
+                      "value": "#1D4ED8",
+                      "description": "Darker primary"
+                    },
+                    {
+                      "name": "800",
+                      "value": "#1E40AF",
+                      "description": "Very dark primary"
+                    },
+                    {
+                      "name": "900",
+                      "value": "#1E3A8A",
+                      "description": "Darkest primary"
+                    }
+                  ]
+                },
+                {
+                  "name": "Neutral Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "50",
+                      "value": "#F8FAFC",
+                      "description": "Lightest text"
+                    },
+                    {
+                      "name": "100",
+                      "value": "#F1F5F9",
+                      "description": "Primary text"
+                    },
+                    {
+                      "name": "200",
+                      "value": "#E2E8F0",
+                      "description": "Strong text"
+                    },
+                    {
+                      "name": "300",
+                      "value": "#CBD5E1",
+                      "description": "Regular text"
+                    },
+                    {
+                      "name": "400",
+                      "value": "#94A3B8",
+                      "description": "Secondary text"
+                    },
+                    {
+                      "name": "500",
+                      "value": "#64748B",
+                      "description": "Disabled text"
+                    },
+                    {
+                      "name": "600",
+                      "value": "#475569",
+                      "description": "Border color"
+                    },
+                    {
+                      "name": "700",
+                      "value": "#334155",
+                      "description": "Card background"
+                    },
+                    {
+                      "name": "800",
+                      "value": "#1E293B",
+                      "description": "Page background"
+                    },
+                    {
+                      "name": "900",
+                      "value": "#0F172A",
+                      "description": "Darkest background"
+                    }
+                  ]
+                },
+                {
+                  "name": "Semantic Colors",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "colors": [
+                    {
+                      "name": "Success",
+                      "value": "#34D399",
+                      "description": "Success states"
+                    },
+                    {
+                      "name": "Warning",
+                      "value": "#FBBF24",
+                      "description": "Warning states"
+                    },
+                    {
+                      "name": "Error",
+                      "value": "#F87171",
+                      "description": "Error states"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Examples",
+              "type": "FRAME",
+              "layout": "VERTICAL",
+              "itemSpacing": 40,
+              "padding": 40,
+              "width": 1360,
+              "sections": [
+                {
+                  "name": "Button Examples",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "components": [
+                    {
+                      "name": "Primary Button",
+                      "states": ["Default", "Hover", "Active", "Disabled"]
+                    },
+                    {
+                      "name": "Secondary Button",
+                      "states": ["Default", "Hover", "Active", "Disabled"]
+                    }
+                  ]
+                },
+                {
+                  "name": "Text Examples",
+                  "type": "FRAME",
+                  "layout": "HORIZONTAL",
+                  "itemSpacing": 24,
+                  "components": [
+                    {
+                      "name": "Light Background",
+                      "background": "#FFFFFF",
+                      "textStyles": ["Heading", "Body", "Caption"]
+                    },
+                    {
+                      "name": "Dark Background",
+                      "background": "#1E293B",
+                      "textStyles": ["Heading", "Body", "Caption"]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
